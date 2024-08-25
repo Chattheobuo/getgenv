@@ -3,6 +3,7 @@ else
 getgenv().Version == "GetKey"
 end
 -- Name Loading!! 
+if getgenv().Version = "GetKey" then
 local Sea = "Sea Event"
   getgenv().NameSea = {
    Name = "Auto Crafts Shark Anchor"
@@ -13,7 +14,7 @@ local Sea = "Sea Event"
    Name3 = "Auto Doge Skill Terro Shark"
    Name4 = "Auto Doge Skill Sea Beast"
    Name5 = "Auto Doge Rough Sea" or BTP then
-}
+end}
    
 --[[getgenv().NameHub1 = "X-Sea Revamped"
 else
